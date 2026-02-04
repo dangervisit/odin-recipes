@@ -3,10 +3,15 @@ body{
     margin: 40px;
 }
 
+* {
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+}
+
 h1{
     color: brown;
     text-align: center;
     font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p{
@@ -41,4 +46,32 @@ button{
 
 .home {
     color: darkred;
+}
+
+.picture {
+    display: block;
+    margin: auto;
+}
+
+.source {
+    display: block;
+    color: grey;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.description {
+    text-align: left;
+    border: 2px solid darkgoldenrod;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+   font-size: 25px; 
 }
